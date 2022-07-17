@@ -42,11 +42,17 @@ From the outputs above, we can see that:
 
 * Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 
-  From the outputs above, it is shows that the variance of the suspension coils is 62.29, whichi is not exceed 100 pounds per square inch. The current manufacturing data meet this design specification for manufacturing lot1 and lot2, but not in lot3. 
+  From the outputs above, it is shows that the variance of the suspension coils is 62.29, which is not exceed 100 pounds per square inch. The current manufacturing data meet this design specification for manufacturing lot1 and lot2, but not in lot3. 
 
 ## T-Tests on Suspension Coils
 
+### T-test for all Lots
+
 ![T_test](https://user-images.githubusercontent.com/102264298/179417219-cdb6ae96-b8a2-4e7e-aab9-497c2ca94051.png)
+
+The p-value for all manufacturing lots is 0.06028, which is larger than 0.05. Aa a result, there is not sufficient evidence to reject the null hyppothesis.  
+
+### T-test for Lot1, Lot2 and Lot3
 
 ![Lot1](https://user-images.githubusercontent.com/102264298/179417226-473c0e6d-d12a-406c-98a1-25133fa0ec92.png)
 
@@ -54,8 +60,7 @@ From the outputs above, we can see that:
 
 ![Lot3](https://user-images.githubusercontent.com/102264298/179417229-4bbf4457-8e0c-4210-8552-51a55bbbf437.png)
 
-
-
+From the t-tests above, it shows that the mean of three manufacturing lots does not have significant difference from the population mean of 1,500 pounds per square inch, it is statistically similar.  
 
 ## Study Design: MechaCar vs Competition
 
