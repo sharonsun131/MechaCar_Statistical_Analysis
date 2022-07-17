@@ -25,13 +25,14 @@ From the outputs above, we can see that:
 
 * Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 
-  vehicle length (p = 2.60e-12) and ground clearance (p = 5.21e-08) provided a non-random amount of variance to the mpg values in the dataset, since their p-value is less than 0.05.  
+  Vehicle Length (p = 2.60e-12) and Ground Clearance (p = 5.21e-08) provided a non-random amount of variance to the mpg values in the dataset, since their p-value is less than 0.05.  
 
 * Is the slope of the linear model considered to be zero? Why or why not?
 
   The slope of the linear model is not zero, because the p-value is 5.35e-11 and it is less than 0.05. This indicates that there is suffcient evidence to reject the null hypothesis.  
 
 * Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+
   Because the R-squared is 0.7149, which means this linear model explains 71% mpg of MechaCar prototypes. We can say that this linear model is effective. 
 
 ## Summary Statistics on Suspension Coils
@@ -61,6 +62,10 @@ The p-value for all manufacturing lots is 0.06028, which is larger than 0.05. Aa
 ![Lot3](https://user-images.githubusercontent.com/102264298/179417229-4bbf4457-8e0c-4210-8552-51a55bbbf437.png)
 
 From the t-tests above, it shows that the mean of three manufacturing lots does not have significant difference from the population mean of 1,500 pounds per square inch, it is statistically similar.  
+
+P-value for Lot1 and Lot2 are much larger than 0.05, so it is not statistically significant from the normal distribution.  
+
+P-value for Lot3 is less than 0.05, so it is statistically significant from the normal distribution.  
 
 ## Study Design: MechaCar vs Competition
 
