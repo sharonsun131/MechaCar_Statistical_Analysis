@@ -66,13 +66,24 @@ From the t-tests above, it shows that the mean of three manufacturing lots does 
 
 Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
 
-In your description, address the following questions:
+In this description, address the following questions:
 
-What metric or metrics are you going to test?
+* What metric or metrics are you going to test?
+ 
+  Cost and city or highway fuel efficiency. 
+  
+* What is the null hypothesis or alternative hypothesis?
 
-What is the null hypothesis or alternative hypothesis?
+  Null hypothesis: There is no statistical difference between the competition's dataset and the MechaCar's mpg dataset.
+  
+  Alternative hypothesis: There is statistical difference between the competition's dataset and the MechaCar's mpg dataset.
 
-What statistical test would you use to test the hypothesis? And why?
+* What statistical test would you use to test the hypothesis? And why?
 
-What data is needed to run the statistical test?
+  I would recommend using two-sample t-test to test the hypothesis. 
+
+* What data is needed to run the statistical test?
+  
+  It is necessary to have the cost, city or highway fuel efficiency data. And the dataset should be a random sample and sample size is large than 30.
+ 
 
