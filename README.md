@@ -70,7 +70,7 @@ In this description, address the following questions:
 
 * What metric or metrics are you going to test?
  
-  Cost and city or highway fuel efficiency. 
+  Cost and city or highway fuel efficiency between the MechaCar and their competitors. 
   
 * What is the null hypothesis or alternative hypothesis?
 
@@ -80,7 +80,7 @@ In this description, address the following questions:
 
 * What statistical test would you use to test the hypothesis? And why?
 
-  I would recommend using two-sample t-test to test the hypothesis. 
+  I would recommend using two-sample t-test to test the hypothesis. So it will show that wether there is a statistical difference between the distribution means from two samples?
 
 * What data is needed to run the statistical test?
   
